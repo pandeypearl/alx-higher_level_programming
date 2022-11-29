@@ -13,7 +13,7 @@ print(f"Last digit of {number:d}", end=' ')
 print(f"is {last:d} and is", end=' ')
 
 if last > 5:
-     print("greater than 5")
+    print("greater than 5")
 elif last == 0:
     print("0")
 else:
