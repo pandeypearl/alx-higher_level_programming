@@ -1,5 +1,8 @@
 #include "lists.h"
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * is_palindrome - checks if a singly linked list is a palindrome
  * @head: double pointer to the first element in the list
