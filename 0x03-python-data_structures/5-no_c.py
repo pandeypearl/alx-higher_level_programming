@@ -8,4 +8,4 @@ def no_c(my_string):
                 my_string = my_string[:idx]
             else:
                 my_string = my_string[:idx] + my_string[idx + 1:]
-        return my_string
+    return my_string
