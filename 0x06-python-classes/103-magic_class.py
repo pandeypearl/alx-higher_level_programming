@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 import math
+"""
+Module that writes class MagicClass to emulate
+Python bytecode
+
+"""
 
 
 class MagicClass:
@@ -26,7 +31,7 @@ class MagicClass:
         calculates the area
 
         """
-        return (self.__radius ** 2) * math.
+        return (self.__radius ** 2) * math.pi
 
     def circumference(self):
         """Circumference
