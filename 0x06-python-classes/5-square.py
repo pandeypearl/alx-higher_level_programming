@@ -62,7 +62,7 @@ class Square:
                 print("#", end='')
             if i < self.__size - 1:
                 print()
-            print()
+        print()
 
     @property
     def size(self):
