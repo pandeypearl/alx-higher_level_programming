@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+"""100-singly_linked_list
 
+this module defines a singly linked list
+
+"""
 
 class Node:
+    """Class Node
+
+    """
     def __init__(self, data, next_node=None):
         if type(data) is not int:
             raise TypeError("data must be an integer")
@@ -13,6 +20,9 @@ class Node:
 
     @property
     def data(self):
+        """Property data
+
+        """
         return self.__data
 
     @data.setter
