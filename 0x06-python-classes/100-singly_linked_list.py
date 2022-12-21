@@ -9,6 +9,8 @@ this module defines a singly linked list
 class Node:
     """Class Node
 
+    some text here
+
     """
     def __init__(self, data, next_node=None):
         if type(data) is not int:
@@ -23,6 +25,8 @@ class Node:
     def data(self):
         """Property data
 
+        some text here
+
         """
         return self.__data
 
@@ -35,6 +39,11 @@ class Node:
 
     @property
     def next_node(self):
+        """Property next node
+
+        some text here
+
+        """
         return self.__next_node
 
     @next_node.setter
@@ -46,6 +55,11 @@ class Node:
 
 
 class SinglyLinkedList:
+    """Class SinglyLinkedList
+
+    some text here
+
+    """
     def __init__(self):
         self.__head = None
 
