@@ -5,6 +5,7 @@ this module defines a singly linked list
 
 """
 
+
 class Node:
     """Class Node
 
