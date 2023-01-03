@@ -16,7 +16,6 @@ class Rectangle:
 
         Initializing instance of a rectangle
         private instance attributes: width and height
-
         """
         self.width = width
         self.height = height
@@ -67,7 +66,7 @@ class Rectangle:
                     msg.append("#")
                 if i < self.__height - 1:
                     msg.append('\n')
-            return ''.join(msg)
+        return ''.join(msg)
 
     def my_print(self):
         """Print the square
