@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""0-rectangle module
+""" 0-rectangle module
 
 """
 
@@ -14,8 +14,8 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """__init__
 
-        initializing instance of a rectangle
-        private instance attributes : width and height
+        Initializing instance of a rectangle
+        private instance attributes: width and height
 
         """
         self.width = width
@@ -31,7 +31,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
 
         if value < 0:
-            raise ValueError("height must be >= 0")
+            raise ValueError("width must be >= 0")
 
         self.__width = value
 
