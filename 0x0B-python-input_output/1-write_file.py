@@ -2,6 +2,8 @@
 """1-write_file
 
 """
+
+
 def number_of_lines(filename=""):
     """
     Writes a string to a text file (UTF8) and
