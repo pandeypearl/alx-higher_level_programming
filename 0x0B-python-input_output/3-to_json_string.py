@@ -2,7 +2,7 @@
 """3-to-json-string
 
 """
-from json import
+from json import dumps
 
 
 def to_json_string(my_obj):
