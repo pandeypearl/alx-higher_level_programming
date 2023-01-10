@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""2-is-same-class
 
-
+"""
 def is_same_class(obj, a_class):
     """
     Checks if `obj` is exactly an instance of the specified class
