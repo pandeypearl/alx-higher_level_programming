@@ -5,12 +5,13 @@
 
 
 class BaseGeometry:
-    def area(self):
-        """
-        Public instance method
+    """
+    Public intance method
 
-        Exception:
-            'area() is not implemented'
-            'You are not allowed to import any module'
-        """
+    Exception:
+        'area() is not implemented'
+        'You are not allowed to import any module'
+    """
+    def area(self):
         raise Exception('area() is not implemented')
+
