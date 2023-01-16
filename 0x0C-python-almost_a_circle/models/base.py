@@ -105,7 +105,7 @@ class Base:
                 cwriter.writerow(my_l)
 
     @classmethod
-    def load_from_cvs_file(cls):
+    def load_from_csv_file(cls):
         """
         Reads a cvs file and returns the list of instances
         that exist int eh file
