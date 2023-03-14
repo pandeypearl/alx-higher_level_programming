@@ -387,3 +387,78 @@ c
 59
 guillaume@ubuntu:~/0x13$
 </code></pre>
+
+
+## Advanced Tasks
+
+### 11. Factor index
+Write a script that imports an array and computes a new array.
+
+<ul>
+<li>Your script must import list from the file 100-data.js</li>
+<li>You must use a map. <a href="https://intranet.alxswe.com/rltoken/LOEW51ZbYDjO4KZCFevzNQ">Tips</a></li>
+<li>A new list must be created with each value equal to the value of the initial list, multipled by the index in the list</li>
+<li>Print both the initial list and the new list</li>
+</ul>
+
+<pre><code>
+guillaume@ubuntu:~/0x13$ cat 100-data.js
+#!/usr/bin/node
+exports.list = [1, 2, 3, 4, 5];
+guillaume@ubuntu:~/0x13$ ./100-map.js 
+[ 1, 2, 3, 4, 5 ]
+[ 0, 2, 6, 12, 20 ]
+guillaume@ubuntu:~/0x13$
+</code></pre>
+
+
+### 12. Sorted occurences
+Write a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
+
+<ul>
+<li>Your script must import dict from the file 101-data.js</li>
+<li>In the new dictionary:
+<ul><li>A key is a number of occurrences</li>
+<li>A value is the list of user ids</li>
+</ul></li>
+<li>Print the new dictionary at the end</li>
+</ul>
+
+<pre><code>
+guillaume@ubuntu:~/0x13$ cat 101-data.js
+#!/usr/bin/node
+exports.dict = {
+  89: 1,
+  90: 2,
+  91: 1,
+  92: 3,
+  93: 1,
+  94: 2
+};
+guillaume@ubuntu:~/0x13$ ./101-sorted.js 
+{ '1': [ '89', '91', '93' ], '2': [ '90', '94' ], '3': [ '92' ] }
+guillaume@ubuntu:~/0x13$
+</code></pre>
+
+
+### 13. Concat files
+Write a script that concats 2 files.
+
+<ul>
+<li>The first argument is the file path of the first source file</li>
+<li>The second argument is the file path of the second source file</li>
+<li>The third argument is the file path of the destination</li>
+</ul>
+
+<pre><code>
+guillaume@ubuntu:~/0x13$ cat fileA
+C is fun!
+guillaume@ubuntu:~/0x13$ cat fileB
+Python is Cool!!!
+guillaume@ubuntu:~/0x13$ ./102-concat.js fileA fileB fileC
+guillaume@ubuntu:~/0x13$ cat fileC
+C is fun!
+Python is Cool!!!
+guillaume@ubuntu:~/0x13$
+</code></pre>
+
