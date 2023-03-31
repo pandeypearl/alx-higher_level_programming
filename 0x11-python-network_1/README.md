@@ -218,3 +218,42 @@ None
 guillaume@ubuntu:~/0x11$
 </code></pre>
 
+
+## Advanced TASKS
+
+### 10. Time for an interview!
+The Holberton School staff evaluates candidates applying for a back-end position with multiple technical challenges, like this one:
+
+<pre><code>
+Please list 10 commits (from the most recent to oldest) of the repository “rails” by the user “rails”
+You must use the GitHub API, here is the documentation https://developer.github.com/v3/repos/commits/
+Print all commits by: `<sha>: <author name>` (one by line)
+</code></pre>
+
+Write a Python script that takes 2 arguments in order to solve this challenge.
+
+<ul>
+<li>The first argument will be the repository name</li>
+<li>The second argument will be the owner name</li>
+<li>You must use the packages requests and sys</li>
+<li>You are not allowed to import packages other than requests and sys</li>
+<li>You don’t need to check arguments passed to the script (number or type)</li>
+</ul>
+
+Only 17% of applicants for a backend position at Holberton finished this task in less than 15 minutes.
+
+<pre><code>
+guillaume@ubuntu:~/0x11$ ./100-github_commits.py rails rails
+3b5a6dfb18f33c373a89760c60d741f34206f23b: Jon Moss
+f785ad786ae49dd6f7a2f1d77c44ea17008c6656: Jon Moss
+bb13c37fefdc8b5699918b38eff84751c2899ad5: Rafael França
+f5d880866917724217eae9785a3ccd3f806c5aaf: Rafael França
+0da696a5e3cee87a996a020b664caa1eabd66220: Ryuta Kamizono
+24eb450d7599bab1f5863e0578a21c65ca42a915: Matthew Draper
+668f8691f1017042e238497d1a5b7b8bf1c43819: Matthew Draper
+a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb: Ryuta Kamizono
+28079868d0e70bdac80c76cf806afd517edfe1e7: Rafael França
+8f0d8551893789f26e5d6b82ccef00779296818f: Rafael Mendonça França
+guillaume@ubuntu:~/0x11$
+</code></pre>
+
