@@ -15,8 +15,8 @@ req.get(url + id, function (err, res, body) {
       if (err) {
         console.log(err);
       }
-    const data1 = JSON.parse(body1);
-    console.log(data1.name);
-  });
+      const data1 = JSON.parse(body1);
+      console.log(data1.name);
+    });
   }
 });
